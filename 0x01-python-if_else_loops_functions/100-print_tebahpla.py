@@ -2,4 +2,4 @@
 for i in reversed(range(ord('a'),ord('z') + 1)):
     if i % 2 != 0:
         i = i - 32
-    print(chr(i), end="")
+    print("{:c}".format(i), end="")
