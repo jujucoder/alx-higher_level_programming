@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     from sys import argv
-    argc = len(argv) -1
+    argc = len(argv) - 1
     if argc == 1:
         print("{} argument:".format(argc))
         print("{}: {}".format(argc, argv[argc]))
