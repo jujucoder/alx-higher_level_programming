@@ -49,7 +49,7 @@ class Square:
         """
         sets position
         """
-        if len(position) < 2 or position[0] < 0 or position[1] < 0:
+        if len(position) < 2 or position[0] < 0 or position[1] < 0 or type(position) != tuple:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = position
 
