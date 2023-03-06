@@ -20,13 +20,14 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
+
     @property
     def size(self):
         """
         gets the size of a square
         """
         return self.__size
-    
+
     @size.setter
     def size(self, size):
         """
