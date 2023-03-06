@@ -11,4 +11,7 @@ class Square:
     base class
     """
     def __init__(self, size):
+        """
+        initialise class with size
+        """
         self.__size = size
