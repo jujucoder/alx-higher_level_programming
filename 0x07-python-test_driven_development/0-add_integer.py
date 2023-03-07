@@ -24,7 +24,6 @@ def add_integer(a, b=98):
         raise TypeError("a must be an integer")
     if not is_integer_num(b):
         raise TypeError("b must be an integer")
-    
+
     result = int(a) + int(b)
     return result
-
