@@ -3,6 +3,7 @@
 module
 """
 def is_integer_num(n):
+
     """
     checks if a number is a float or an int
     """
@@ -12,6 +13,7 @@ def is_integer_num(n):
         return True
 
 def add_integer(a, b=98):
+
     """
     adds integers
     """
