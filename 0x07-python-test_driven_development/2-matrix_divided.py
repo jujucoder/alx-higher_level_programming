@@ -17,17 +17,20 @@ def matrix_divided(matrix, div):
         raise ZeroDivisionError("division by zero")
 
     if not isinstance(matrix, list) or len(matrix) == 0:
-        raise TypeError("matrix must be a matrix (list of lists) \
-                         of integers/floats")
+       raise TypeError(
+                "matrix must be a matrix (list of lists) of integers/floats"
+                )
 
     for row in matrix:
         if len(row) == 0:
-            raise TypeError("matrix must be a matrix (list of lists) \
-                             of integers/floats")
+            raise TypeError(
+                "matrix must be a matrix (list of lists) of integers/floats"
+                )
         for x in row:
             if type(x) != int and type(x) != float:
-                raise TypeError("matrix must be a matrix (list of lists) \
-                      of integers/floats")
+                raise TypeError(
+                    "matrix must be a matrix (list of lists) of integers/floats"
+                    )
 
     len_rows = []
     for row in matrix:
