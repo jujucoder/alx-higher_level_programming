@@ -18,3 +18,4 @@ def text_indentation(text):
             [line.strip(" ") for line in text.split(delim)])
 
     print("{}".format(text), end="")
+    
